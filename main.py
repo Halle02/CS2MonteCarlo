@@ -1,6 +1,6 @@
 import asyncio
-from api.cs2_client import CS2Client
-from models.montecarlo import MonteCarloSimulator
+from dashboard.api.cs2_client import CS2Client
+from dashboard.models.montecarlo import MonteCarloSimulator
 
 async def main():
     client = CS2Client()
